@@ -1,0 +1,74 @@
+body {
+    background: #090909;
+    color: white;
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    text-align: left;
+    line-height: 1.5;
+}
+a {
+    color: #eee;
+    text-decoration: none;
+}
+a:hover {
+    color: #e0e0e0;
+}
+ul, li{
+    list-style-type: none;
+    padding: 0;
+}
+img:hover {
+    opacity: 0.9;
+}
+header {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+article {
+    max-width: 1080px;
+    margin: 5% auto;
+}
+nav li {
+    display: inline-block;
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+#bioContainer {
+    display: flex;
+}
+main h2 {
+    margin: 0 0 2rem;
+    padding-bottom: 1.2rem;
+    text-align: center;
+    border-bottom: solid 1px #1f1f1f;
+}
+#bioPhoto {
+    margin: 0 2rem 0 0;
+}
+
+.download a {
+    display: inline-block;
+    margin: 1rem 0 0;
+    padding: 0.5rem;
+    text-align: center;
+    background: #eee;
+    color: #090909;
+    font-weight: bold;
+    border-radius: 2px;
+}
+h3 {
+    margin: 0 0 1rem;
+}
+.download a:hover {
+    background: #e0e0e0;
+    color: #090909;
+}
+@media screen and (max-width: 720px) {
+    #bioContainer {
+        display: block;
+    }
+    #bioPhoto {
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    
+}
